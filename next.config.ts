@@ -7,8 +7,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
+  reactCompiler: true,
+
   experimental: {
-    reactCompiler: true,
     serverActions: {
       allowedOrigins: ["*"],
     },
