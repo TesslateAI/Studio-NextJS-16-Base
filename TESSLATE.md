@@ -5,16 +5,17 @@
 ## Framework Configuration
 
 **Framework**: Next.js
-**Version**: 16.x
+**Version**: 16.1
 **Port**: 3000
 
 **Tech Stack:**
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS v4
+- Next.js 16.1
+- React 19.2
+- TypeScript 5.9
+- Tailwind CSS v4.2
 - App Router
 - Turbopack
+- React Compiler
 
 ## File Structure
 
@@ -26,7 +27,7 @@ app/
 ├── layout.tsx           # Root layout
 └── page.tsx             # Home page
 public/                  # Static assets
-next.config.js           # Next.js config
+next.config.ts           # Next.js config
 postcss.config.mjs       # PostCSS config (Tailwind v4)
 ```
 
@@ -48,4 +49,6 @@ bun start
 - Dependencies are pre-baked (node_modules included)
 - Uses bun for package management (fastest)
 - Turbopack enabled for fast compilation
-- Tailwind CSS v4 with new @import syntax
+- React Compiler enabled for automatic memoization
+- Tailwind CSS v4 with @import syntax
+- Geist font family (sans + mono)
