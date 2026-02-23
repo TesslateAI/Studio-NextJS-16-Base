@@ -35,6 +35,7 @@ postcss.config.mjs       # PostCSS config (Tailwind v4)
 
 **Start Command**:
 ```bash
+bun install --frozen-lockfile
 bun run dev -- --hostname 0.0.0.0 --port 3000
 ```
 
