@@ -3,7 +3,10 @@
     "nextjs-16-base": {
       "directory": ".",
       "port": 3000,
-      "start": "bun install --frozen-lockfile && bun run dev -- --hostname 0.0.0.0 --port 3000"
+      "start": "bun install --frozen-lockfile && bun run dev -- --hostname 0.0.0.0 --port 3000",
+      "build": "bun run build",
+      "output": ".next",
+      "framework": "nextjs"
     }
   },
   "primaryApp": "nextjs-16-base"
